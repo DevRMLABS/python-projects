@@ -1,33 +1,47 @@
-# Python Fitness Tracker
+This repository contains my Python projects as I learn programming and build my skills.
 
-A beginner Python project that collects fitness information and calculates running and ruck paces.
+## Projects
 
-## What It Does
+### Fitness Tracker
+A program that collects fitness information and calculates running and ruck paces.
 
-- Asks for the user's name
-- Counts the characters in the name
-- Records push-up and sit-up goals
-- Records an improved 2-mile run time
-- Records a 4-mile ruck time
-- Calculates run pace
-- Calculates ruck pace
-- Calculates an average time
-
-## Example
-
-The program can calculate:
-
-- 2-mile run pace: 8.65 min/mile
-- 4-mile ruck pace: 9.5 min/mile
-
-## What I Learned
-
-This project helped me practice:
-
+Skills used:
 - `input()`
 - Variables
 - `int()` and `float()`
-- Arithmetic operators
+- Arithmetic
 - `len()`
 - `print()`
-- Basic debugging
+
+### Running Tracker
+A simple program that asks for running distance and time and calculates pace.
+
+### Budget Calculator
+A beginner project that calculates and tracks basic finances.
+
+### Name & Age Warmup
+A simple program that practices user input, variables, and basic calculations.
+
+###  Zombie Game
+An interactive text-based Python project that uses user choices to create different outcomes.
+
+## What I'm Learning
+
+I'm currently building my Python fundamentals and working toward more advanced programming projects.
+
+My current focus:
+- Python fundamentals
+- Problem solving
+- Debugging
+- Building projects
+- Using GitHub
+- Learning how to write cleaner code
+
+## Goals
+
+My goal is to continue building projects, strengthen my programming skills, and eventually move into Computer Science and a technology career.
+
+## Progress
+
+This repository is a record of my progress as I learn Python. Projects will become more advanced as my skills improve.
+
