@@ -1,0 +1,13 @@
+# This program asks about your name and age.
+print('Hello what is your name?')
+my_name=input('>')
+print('The length of your name is:')
+print(len(my_name))
+print('Great I have got your name, what is your age now?')
+my_age=input('>')
+print('To add a bit extra to this warm up state your favorite hobby')
+favorite_hobby=input('>')
+print('Cool I now understand, ' + favorite_hobby)
+print('Finally to add on to finish what is your height in inches?')
+my_height=input('>')
+print('Ok your height is, ' + my_height)
