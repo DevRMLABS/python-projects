@@ -17,30 +17,31 @@ print("you have three files to pick from, each one is color coded.")
 
 choice = input("Will you continue using the computer?").lower()
 if choice == "Yes":
-    
-    print("You the files tab visibly displaying three of the files previously mentioned, Green, Red, or Black.")
+
+    print("You the files tab visibly displaying three of the files previously mentioned, green, red, or black.")
 elif choice == "No":
-    
+
     print("You decide not to test your luck, closing the computer and proceeding with a swift escape into the darkness")
     exit()
-choice = input(" Will you open the Red, Green, or Black one first?")
+choice = input("Which file do you test your fate with?")
 if choice == "Yes":
     print("The three files appear")
-    
+
 elif choice == "No":
     print("you close the computer")
     exit()
-    
-choice = input("Red, Green, or Black?").lower()
 
-if choice == "Red":
-    print("The file begins to open...")
-    
-elif choice == "Green":
-    print("The file begins to open...")
-    
-elif choice == "Black":
-    print("The file begins to open...")
+choice = input("red, Green, or Black?").lower()
 
+if choice == "red":
+    print("The file begins to open, bright lights flash all around you, a surreal feeling courses through your body, you have gained endless knowledge...")
 
+elif choice == "green":
+    print("The file begins to open, someone from another world, appearing as an elvish figure grabs your hand gently and pulls you through the computer screen, you have appeared in a fantasy world where you are the hero!")
+
+elif choice == "black":
+    print("The file begins to open a damp black mist submerges the room, you feel something sharp pierce your neck, a woman with white hair has turned you into a half-blood vampire!")
+    
+else: 
+    print("Invalid file selection...")
 
